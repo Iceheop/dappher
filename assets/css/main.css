@@ -1,0 +1,123 @@
+:root {
+
+    /* Color pallet */
+    --blue-500: #0d6efd;
+    --gray-500: #adb5bd;
+    --dark-500: #0C0C0C;
+    --dark-op-500: #0c0c0c81;
+    --white-500: #ffffff;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/bg.jpg');
+    background-color: var(--dark-op-500);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.navbar {
+    padding: 12px 0;
+
+    .navbar-container {
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+        .navbar-brand {
+            text-decoration: none;
+            color: var(--white-500);
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        .navbar-nav {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+            .nav-list-items {
+                list-style: none;
+                margin: 0 12px;
+        
+                .nav-link {
+                    text-decoration: none;
+                    color: var(--white-500);
+                }
+            }
+        }
+
+        .navbar-btn-group {
+            display: flex;
+            gap: 6px;
+        }
+    }
+}
+.container {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 100%;
+    margin-top: 175px;
+    color: var(--white-500);
+}
+.section {
+    background-color: var(--white-500);
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* Global class */
+.btn {
+    text-decoration: none;
+    border: none;
+    background: none;
+    padding: 5px 16px;
+}
+.btn-secondary {
+    background-color: var(--gray-500);
+    color: var(--white-500);
+    border-radius: 3px;
+}
+.btn-primary {
+    background-color: var(--blue-500);
+    color: var(--white-500);
+    border-radius: 3px;
+}
+.fs-1 {
+    font-size: 42px;
+}
+.mb-1{
+    margin-bottom: 15px;
+}
+.ml-1 {
+    margin-left: 10px;
+}
+.mr-1 {
+    margin-right: 10px;
+}
+.text-primary {
+    color: var(--blue-500);
+}
+
+
+
+
+/* a */
+a {
+    color: #000;
+}
